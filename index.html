@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/js/bootstrap.min.js" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header class="bg_img">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-sm-12 col-md-8">
+            <div class="logo_center mt-4">
+              <!--  <img src="image/kp.png" alt="kp_logo" /> -->
+              <a href="#">
+                <img
+                  class="img-fluid"
+                  src="assets/Image/kp.png"
+                  style="height: 100px"
+                  alt="2"
+                />
+              </a>
+              <h2 class="para__text mt-2">KWARA STATE POLYTECHNIC, ILORIN</h2>
+              <p class="para_text">
+                Centralized Online Research Assessment and Submission System
+                (CORASS)
+              </p>
+              <button class="btn_col btn">
+                Click here to access CORASS APP
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container mt-5">
+          <div class="row mt-4">
+            <div class="col-lg-7 col-md-7 col-sm-6 mt-5">
+              <p class="para_his mt-1">
+                The Kwara State Polytechnic, Ilorin was established by his
+                Excellency, the then Military Governor of Kwara State, Col.
+                David Bamigboye. The decision to establish the Polytechnic was
+                announced during the launching of the four Year Development plan
+                in 1971. The College eventually came into existence following
+                the promulgation of Kwara State Edict no. 4 of 1972 (now
+                overtaken by the edict no. 21 of 1984 edict No. 13 of 1987 and
+                edict no. 7 of 1994) as a body empowered by statute "to provide
+                for studies, training, research and development of techniques in
+                arts and language, applied sciences, engineering, management and
+                commerce, education and well as in other spheres of learning".
+                <span id="dots">...</span
+                ><span class="more">
+                  The Kwara State Polytechnic formally commenced operation in
+                  January 1973 with an administrative machinery patterned
+                  closely after the existing universities in the country. The
+                  polytechnic has as its motto: TECHNOLOGY, INNOVATION AND
+                  SERVICE. At its inception in 1973, the Polytechnic had 110
+                  students, 11 members of academic staff and 3 senior
+                  administrative staff.</span
+                >
+              </p>
+              <button onclick="myFunction()" id="myBtn" class="btn_col btn">
+                Read more
+              </button>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-6">
+              <img
+                src="assets/Image/kwara-poly.jpeg"
+                alt=""
+                class="img-fluid img_sch"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container mt-5">
+          <div class="row mt-5">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="nav flex-row">
+                <div
+                  class="nav flex-column nav-pills"
+                  id="v-pills-tab"
+                  style="width: 100px"
+                  role="tablist"
+                  aria-orientation="vertical"
+                >
+                  <a
+                    class="nav-link link_text active"
+                    id="v-pills-home-tab"
+                    data-toggle="pill"
+                    href="#v-pills-home"
+                    role="tab"
+                    aria-controls="v-pills-home"
+                    aria-selected="true"
+                    >INTRODUCTION</a
+                  >
+                  <a
+                    class="nav-link  link_text"
+                    id="v-pills-profile-tab"
+                    data-toggle="pill"
+                    href="#v-pills-profile"
+                    role="tab"
+                    aria-controls="v-pills-profile"
+                    aria-selected="false"
+                    >SIGNIFICANCE OF CORASS TO STUDENTS</a
+                  >
+                  <a
+                    class="nav-link link_text"
+                    id="v-pills-messages-tab"
+                    data-toggle="pill"
+                    href="#v-pills-messages"
+                    role="tab"
+                    aria-controls="v-pills-messages"
+                    aria-selected="false"
+                    >SIGNIFICANCE OF CORASS TO THE POLYTECHNIC</a
+                  >
+                 
+                </div>
+            </div>
+         </div>
+         <div class="col-lg-8 col-md-8 col-sm-6">
+          
+          <div class="tab-content mx-5" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+            The management of Kwara State Polytechnic led by Engr. Dr. Abdul Jimoh Muhammed has flag off a new Electronic 
+            System through which Students can submit their Research Reports [Final Year Project Reports and Students' Industrial
+             Work Experience Scheme (SIWES) Technical Reports] electronically for onward Assessment by Lecturers. The system is 
+             called a Centralized Online Research Assessment and Submission System (CORASS). Students now login into the CORASS 
+             Platform through their Portal. Upon login into the CORASS Platform, students are able to upload Projects or SIWES 
+             Report. Students can re-access their submitted reports anytime, monitor the progress of their Project and also check
+              their grades prior to the final result Approval electronically. With CORASS, Lecturers are able to electronically 
+              assess and grade Project reports submitted by Students. The system is a robust system that is enbedded with
+               plagiarism checker to enhance the quality of Final Year Project Reports emanating from Kwara State Polytechnic.
+             The system is an innovation and first of its kind in tertiary institutions in Nigeria.<br>
+             <button class="btn_col btn">
+              Click here to access CORASS APP
+            </button>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-profile"
+              role="tabpanel"
+              aria-labelledby="v-pills-profile-tab"
+            >
+            The new innovative system is very important as Project constitute the Highest Credit Unit as far as Students' 
+            CGPA is concern. 
+            The following are some of the Advantages of CORASS to Students:
+            <ol>
+              <li>Students can Submit their Project Chapter by Chapter from the comfort of their Homes.</li>
+              <li>Lesser queues at the Supervisors' Offices means more Conveniency to Students.</li>
+              <li>CORASS will give assurances to students that their reports are dully submitted to their supervisors for assessment and grading.</li>
+              <li>Project Acknowledgement Slips (PAS) Printed by Students after Online Submission will give assurances to students that they have evidence and
+                 a case to make when cases of omission and missing project grades arises.</li>
+              <li>Lesser interaction between the Students and Lecturers means lesser chances of Female Student harassment.</li>
+              <li>Lesser interaction between the Students and Lecturers means lesser chances of Exploitation and Extortions from Students.</li>
+              <li>With CORASS, students will spend lesser amount of Money in Typesetting and Binding of Hard copies of Projects and SIWES Reports.</li>
+            </ol>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-messages"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+            <ol>
+              <li>With CORASS, staff are able to access Students Researches seamlessly without not neccessarily seeing the student.</li>
+              <li>The new system will assist the management in effective collation, Central Assessment and Central Documentation of SIWES Technical Reports 
+                against the previous manual practices still being used in many institutions across the country.</li>
+              <li>CORASS will give lecturers access to many soft copies of
+                 their Supervised Project Reports at their fingertips. This will therefore help lecturers in reviewing past Project Report for personal use during lectures or for onward processing into Journals, Textbooks or Articles for Publications. This will enhance Research and Development among the academic staff of the Polytechnic.</li>
+              <li>Previously, cases of final year project grades do occur due to manual collations of project grades. With this new electronic system, students project grades are transmitted electronically, 
+                eradicating chances of omissions of students grades.</li>
+              <li>The Polytechnic library now electronically document and transmit Final Year Project Reports submitted by Students into the Polytechnic e-Library archive for future referencing.</li>
+            </ol>
+            </div>
+           
+          </div>
+         </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </main>
+    <footer class="bg-light mt-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 mt-4">
+      <div class="logo_center">
+        <h2 class="para__text1 mt-2 text-dark pt-3">KWARA STATE POLYTECHNIC, ILORIN</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sint vel explicabo rerum facere.
+           Quam blanditiis officiis 
+          tempora sed quasi voluptate debitis ut ipsam! Debitis quis molestias ab nam beatae.</p>
+      </div>
+    </div>
+  </div>
+</div>
+COPYRIGHT &copy;2022 CORASS, All rights Reserved
+    </footer>
+    <script src="assets/index.js"></script>
+  </body>
+</html>
