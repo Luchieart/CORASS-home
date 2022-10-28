@@ -47,44 +47,43 @@
   font-family: Montserrat;
 
   font-weight: 500;
-  
+
   font-size: 15.004px;
-  
+
   line-height: 21.6048px;
-  
+
   color: rgb(94, 88, 115);
-  
+
   font-style: normal;
-  opacity:0.8;
+  opacity: 0.8;
 }
 .para_21 {
   font-family: Montserrat;
 
-font-weight: 500;
+  font-weight: 500;
 
-font-size: 18.004px;
+  font-size: 18.004px;
 
-line-height: 21.6048px;
+  line-height: 21.6048px;
 
-color: rgb(94, 88, 115);
+  color: rgb(94, 88, 115);
 
-font-style: normal;
-opacity:0.8;
-
+  font-style: normal;
+  opacity: 0.8;
 }
 .para_her1 {
   font-family: Montserrat;
 
-font-weight: 500;
+  font-weight: 500;
 
-font-size: 18.004px;
+  font-size: 18.004px;
 
-line-height: 21.6048px;
+  line-height: 21.6048px;
 
-color: rgb(94, 88, 115);
+  color: rgb(94, 88, 115);
 
-font-style: normal;
-opacity:0.9;
+  font-style: normal;
+  opacity: 0.9;
 }
 .btn_col {
   background-color: #2f7513;
@@ -128,7 +127,7 @@ opacity:0.9;
   display: none;
 }
 .bg_img {
-  background-image: url("image/background.jpg");
+  background-image: url('image/background.jpg');
   background-size: cover;
   height: 70vh;
   background: linear-gradient(
@@ -140,21 +139,21 @@ opacity:0.9;
 .img_sch {
   height: 60vh;
 }
-.link_text{
+.link_text {
   font-size: 15px;
-  color:black
+  color: black;
 }
-.link_text:hover{
+.link_text:hover {
   font-size: 15px;
   color: white;
-  background-color: #2f751360 ;
+  background-color: #2f751360;
 }
-.link_text::after{
+.link_text::after {
   font-size: 20px;
   color: white;
-  background-color: #2f75136e ;
+  background-color: #2f75136e;
 }
-ol{
+ol {
   list-style-type: upper-alpha;
 }
 .copy {
@@ -169,14 +168,14 @@ ol{
   flex-direction: column;
   align-self: center;
 }
-.bg_blue{
-  color:rgb(21, 67, 192);
+.bg_blue {
+  color: rgb(21, 67, 192);
 }
-.user_id{
+.user_id {
   opacity: 0.8;
   font-size: 12px;
 }
-.user_ide{
+.user_ide {
   opacity: 0.8;
   font-size: 14px;
 }
@@ -184,18 +183,30 @@ ol{
   color: rgb(184, 179, 179);
   font-size: 15px;
 }
-.pass{
-  float:right;
-  color:rgb(38, 97, 207);
+.pass {
+  float: right;
+  color: rgb(38, 97, 207);
 }
-.flex_d{
-  display:flex;
-justify-content: flex-end;
+.flex_d {
+  display: flex;
+  justify-content: flex-end;
 }
-.bg-light2{
-  background: #F2F2F8;
+.bg-light2 {
+  background: #f2f2f8;
 }
-.bg_light1{
-  background: #2F7513;
+.bg_light1 {
+  background: #2f7513;
 }
 
+.tab-box {
+  background-color: white;
+  border: 1px solid #2f75133f;
+}
+
+.tab-part {
+  margin: 15px 0;
+}
+
+.tab-part:hover {
+  background: #2f7513;
+}
