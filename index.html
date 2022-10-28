@@ -33,6 +33,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
     <script src="index.js"></script>
   </head>
   <body>
@@ -110,15 +111,14 @@
       <section>
         <div class="container mt-5">
           <div class="row mt-5">
-            <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="col-lg-4 col-md-4 col-sm-6" style="background-color: grey;">
               <div class="nav flex-row">
-                <div
+                <div class="col-lg-12">
+                  <div
                   class="nav flex-column nav-pills"
                   id="v-pills-tab"
-                  style="width: 100px"
                   role="tablist"
-                  aria-orientation="vertical"
-                >
+                  aria-orientation="vertical">
                   <a
                     class="nav-link link_text active"
                     id="v-pills-home-tab"
@@ -127,6 +127,7 @@
                     role="tab"
                     aria-controls="v-pills-home"
                     aria-selected="true"
+                    style="height: 40px;"
                     >INTRODUCTION</a
                   >
                   <a
@@ -151,10 +152,10 @@
                   >
                  
                 </div>
+                </div>
             </div>
          </div>
          <div class="col-lg-8 col-md-8 col-sm-6">
-          
           <div class="tab-content mx-5" id="v-pills-tabContent">
             <div
               class="tab-pane fade show active"
@@ -172,9 +173,11 @@
               assess and grade Project reports submitted by Students. The system is a robust system that is enbedded with
                plagiarism checker to enhance the quality of Final Year Project Reports emanating from Kwara State Polytechnic.
              The system is an innovation and first of its kind in tertiary institutions in Nigeria.<br>
-             <button class="btn_col btn">
-              Click here to access CORASS APP
-            </button>
+             <a href="login.html">
+              <button class="btn_col btn">
+                Click here to access CORASS APP
+              </button>
+             </a>
             </div>
             <div
               class="tab-pane fade"
@@ -221,20 +224,26 @@
       </div>
       </section>
     </main>
-    <footer class="bg-light mt-5">
+    <footer class="bg_light1 mt-5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 mt-4">
       <div class="logo_center">
-        <h2 class="para__text1 mt-2 text-dark pt-3">KWARA STATE POLYTECHNIC, ILORIN</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sint vel explicabo rerum facere.
-           Quam blanditiis officiis 
-          tempora sed quasi voluptate debitis ut ipsam! Debitis quis molestias ab nam beatae.</p>
+        <img
+                  class="img-fluid"
+                  src="assets/Image/kp.png"
+                  style="height: 100px"
+                  alt="2"
+                />
+        <h2 class="para__text1 mt-2 text-white pt-3">KWARA STATE POLYTECHNIC, ILORIN</h2>
+        <p class="text-white">CORASS is 100% COVID-19 compliane mechanism as students' physical interactions and contacts are reduced during the rigorous Project writting excercise. CORASS is a new addition to the numerous automation achievements of the present Kwara State Polytechnic management led by Engr. Dr. Abdul Jimoh Muhammed.</p><br>
+          
+          COPYRIGHT ©2022 CORASS, All rights Reserved
       </div>
     </div>
   </div>
 </div>
-COPYRIGHT &copy;2022 CORASS, All rights Reserved
+
     </footer>
     <script src="assets/index.js"></script>
   </body>
